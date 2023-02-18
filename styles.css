@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     background: #1F2937;
-    padding: 0px 150px;
+    padding: 0px 150px 100px;
 }
 
 .header {
@@ -35,6 +35,46 @@ body {
     gap: 16px;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.chunk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blurb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blurb .title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.blurb .summary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.blurb button {
+    display: flex;
+    background: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    border-radius: 6px;
+}
+
+.chunk img {
+    height: auto;
+    width: 700px;
 }
 
 .footer {
